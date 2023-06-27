@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  Regression Suite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Suite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 27 21:24:36 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>172 seconds (172582 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nxtgenai.testcases.RegisterDemo.registerUser()'><b>registerUser</b><br>Test class: com.nxtgenai.testcases.RegisterDemo<br>Parameters: {EmailID=pranav@gmail.com, Gender=Male, StreetAddress=ABC Street, UFT=OFF, ApartmentNumber=C1, SeleniumWebDriver=OFF, Country=India, Expected Successful Message=Registration Form is Successfully Submitted, PinCode=500001, State=Telangana, Query=What is the Roadmap for Web Service API Automation?, TitleValidation=Register For Demo, MM=35, LastName=Vinoth, FirstName=Pranav, MobileNumber=638354489, FunctionalTesting=ON, Others=ON, TestNG=OFF, CoreJava=ON, DemoDate=06/11/2024, HH=20, City=Hyderabad}</td>
+<td></td>
+<td>23</td>
+<td>com.nxtgenai.testcases.RegisterDemo@681aad3b</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingHomePageNavigation()'><b>validatingHomePageNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>13</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingMouseEventNavigation()'><b>validatingMouseEventNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>2</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingPopUp.validatePromptAlertPopUp()'><b>validatePromptAlertPopUp</b><br>Test class: com.nxtgenai.testcases.HandlingPopUp</td>
+<td></td>
+<td>0</td>
+<td>com.nxtgenai.testcases.HandlingPopUp@1a6f2363</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingTechTalkNavigation()'><b>validatingTechTalkNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMultipleWindows.handlingMultipleMessageWindow()'><b>handlingMultipleMessageWindow</b><br>Test class: com.nxtgenai.testcases.HandlingMultipleWindows</td>
+<td></td>
+<td>5</td>
+<td>com.nxtgenai.testcases.HandlingMultipleWindows@2427e004</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingWebTableNavigation()'><b>validatingWebTableNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>2</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingRegistrationFormNavigation()'><b>validatingRegistrationFormNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>2</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingSeleniumAutomationCurriculumNavigation()'><b>validatingSeleniumAutomationCurriculumNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>8</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingProgressBarNavigation()'><b>validatingProgressBarNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>2</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingPythonForAutomationNavigation()'><b>validatingPythonForAutomationNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingAlertPopUpNavigation()'><b>validatingAlertPopUpNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>24</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.RegisterDemo.registerUser()'><b>registerUser</b><br>Test class: com.nxtgenai.testcases.RegisterDemo<br>Parameters: {EmailID=vinothrwins@gmail.com, Gender=Male, StreetAddress=XYZ Street, UFT=ON, ApartmentNumber=S1, SeleniumWebDriver=ON, Country=India, Expected Successful Message=Registration Form is Successfully Submitted, PinCode=600100, State=Tamil Nadu, Query=What is the Roadmap for Selenium Automation?, TitleValidation=Register For Demo, MM=00, LastName=Rathinam, FirstName=Vinoth, MobileNumber=638354489, FunctionalTesting=OFF, Others=OFF, TestNG=ON, CoreJava=OFF, DemoDate=12/19/2024, HH=09, City=Chennai}</td>
+<td></td>
+<td>29</td>
+<td>com.nxtgenai.testcases.RegisterDemo@681aad3b</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMultipleWindows.handlingMultipleTabs()'><b>handlingMultipleTabs</b><br>Test class: com.nxtgenai.testcases.HandlingMultipleWindows</td>
+<td></td>
+<td>7</td>
+<td>com.nxtgenai.testcases.HandlingMultipleWindows@2427e004</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingAutomationToolsCurriculumNavigation()'><b>validatingAutomationToolsCurriculumNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>3</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingDynamicTransactionNavigation()'><b>validatingDynamicTransactionNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>2</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingTestimonialsNavigation()'><b>validatingTestimonialsNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMouseEvent.validateDoubleClickAction()'><b>validateDoubleClickAction</b><br>Test class: com.nxtgenai.testcases.HandlingMouseEvent</td>
+<td></td>
+<td>0</td>
+<td>com.nxtgenai.testcases.HandlingMouseEvent@5ebd56e9</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingMultipleWindowsNavigation()'><b>validatingMultipleWindowsNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>7</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMouseEvent.validateAlertPopupOption()'><b>validateAlertPopupOption</b><br>Test class: com.nxtgenai.testcases.HandlingMouseEvent</td>
+<td></td>
+<td>2</td>
+<td>com.nxtgenai.testcases.HandlingMouseEvent@5ebd56e9</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingFramesNavigation()'><b>validatingFramesNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation</td>
+<td></td>
+<td>3</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@4628b1d3</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingPopUp.validateConfirmAlertPopUp()'><b>validateConfirmAlertPopUp</b><br>Test class: com.nxtgenai.testcases.HandlingPopUp</td>
+<td></td>
+<td>0</td>
+<td>com.nxtgenai.testcases.HandlingPopUp@1a6f2363</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMultipleWindows.handlingMultipleBrowsers()'><b>handlingMultipleBrowsers</b><br>Test class: com.nxtgenai.testcases.HandlingMultipleWindows</td>
+<td></td>
+<td>7</td>
+<td>com.nxtgenai.testcases.HandlingMultipleWindows@2427e004</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingPopUp.validateAlertPopUp()'><b>validateAlertPopUp</b><br>Test class: com.nxtgenai.testcases.HandlingPopUp</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.HandlingPopUp@1a6f2363</td></tr>
+</table><p>
+</body>
+</html>
