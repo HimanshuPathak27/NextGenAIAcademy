@@ -349,7 +349,6 @@ public class NxtGenRegisterDemoPage extends CustomListeners{
 	}
 
 	public void enterVerificationNum() {	
-		// Example 84
 		String verificationVal = verificationText.getText();
 		String num[]=verificationVal.split(":");    //Example: 84
 		verificationNumber.sendKeys(num[1].trim());

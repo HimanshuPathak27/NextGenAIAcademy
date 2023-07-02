@@ -44,8 +44,8 @@ public class NxtGenMouseEventPage extends CustomListeners{
 	public void performRightClick() {
 		Actions action = new Actions(driver);
 		action.contextClick(rightClickMeBtn).click(alerttPopupOption).perform();
-		test.log(Status.PASS,"Right click action is performed and Alert Popup option is selected");
-		System.out.println("Right click action is performed and Alert Popup option is selected");
+		test.log(Status.PASS,"Right click action is performed and Alert Popup is selected");
+		System.out.println("Right click action is performed and Alert Popup is selected");
 	}
 
 }
